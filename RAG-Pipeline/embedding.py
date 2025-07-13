@@ -1,6 +1,7 @@
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 
+model_id = "sentence-transformers/all-MiniLM-L6-v2"
 model = SentenceTransformer(model_id)
 EMBED_DIM = len(model.encode("Hello World"))
 
