@@ -1,0 +1,6 @@
+transformers
+docling
+langchain 
+langchain-huggingface
+langchain_community 
+sentence_transformers
